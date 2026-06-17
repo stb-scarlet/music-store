@@ -1,0 +1,5 @@
+{
+  "moodAdjectives": ["moody", "vibrant", "dreamy", "gritty", "ethereal", "retro", "neon-lit", "minimalist", "surreal", "warm", "melancholic", "euphoric", "hazy", "stark", "lush", "windswept"],
+  "sceneNouns": ["city skyline at night", "desert highway at dusk", "ocean horizon at sunrise", "forest clearing in fog", "abstract light trails", "vinyl record close-up", "analog synthesizer", "empty stage with a single spotlight", "mountain silhouette", "rain on a window", "neon-lit alleyway", "open road through fields", "starry night sky", "old film projector light beam", "subway platform at night", "rooftop view of a city"],
+  "styleDescriptors": ["digital painting", "35mm film photography", "vaporwave illustration", "oil painting", "minimalist vector art", "double exposure photography", "watercolor illustration", "cinematic photography", "retro poster art", "long exposure photography"]
+}

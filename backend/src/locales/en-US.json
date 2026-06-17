@@ -1,0 +1,17 @@
+{
+  "code": "en-US",
+  "label": "English (USA)",
+  "fakerLocale": "EN_US",
+  "soloArtistProbability": 0.5,
+  "singleProbability": 0.28,
+  "nouns": ["horizon","echo","shadow","river","ember","glass","wolf","storm","mirror","garden","engine","static","velvet","neon","harbor","compass","wildfire","paper","stone","feather","midnight","lantern","canyon","current","orbit","tide","spark","ash","frost","halo"],
+  "nounsPlural": ["horizons","echoes","shadows","rivers","embers","mirrors","gardens","engines","wolves","storms","wildfires","stones","feathers","lanterns","canyons","currents","sparks","tides","frosts","halos","ghosts","strangers","dreamers","outlaws","rebels","saints","sinners","lovers","drifters","wanderers"],
+  "adjectives": ["golden","broken","electric","quiet","wild","crooked","velvet","neon","faded","restless","silver","hollow","burning","frozen","gentle","reckless","distant","stormy","lonesome","radiant","bitter","tender","savage","weightless","static","feral","luminous","brittle","fearless","hazy"],
+  "adjectivesPlural": ["golden","broken","electric","quiet","wild","crooked","velvet","neon","faded","restless","silver","hollow","burning","frozen","gentle","reckless","distant","stormy","lonesome","radiant","bitter","tender","savage","weightless","static","feral","luminous","brittle","fearless","hazy"],
+  "verbsGerund": ["falling","burning","dancing","drifting","waiting","running","fading","breaking","dreaming","unraveling","floating","screaming","whispering","colliding","wandering"],
+  "genres": ["Indie Rock","Synthwave","Lo-fi Hip-Hop","Dream Pop","Outlaw Country","Neo-Soul","Garage Punk","Ambient Folk","Future Bass","Desert Blues","Bedroom Pop","Drum & Bass","Power Pop","Acoustic Soul","Alt-Country"],
+  "songTemplates": ["{Adj} {Noun}","{Noun} of {Noun}","{Verbing} in the {Noun}","The {Adj} {NounPl}","Last {Noun}","{Adj} {NounPl}","{Noun} and {Noun}","Sons of {Noun}","{Verbing}"],
+  "albumTemplates": ["{Adj} {NounPl}","{Noun} Sessions","The {Adj} {Noun}","{NounPl} & {NounPl}","{City} Nights","{Adj} {Noun} (Deluxe)","{Noun} Diaries"],
+  "bandTemplates": ["The {Adj} {NounPl}","{Noun} & The {NounPl}","{Adj} {Noun}","{City} {NounPl}","The {NounPl}"],
+  "reviewTemplates": ["{Adj} production with a {adj} hook that's hard to shake.","A {adj} take on a {noun} — {adj} from the first beat.","Surprisingly {adj}; the {noun} carries the whole thing.","Not groundbreaking, but a genuinely {adj} listen.","The {noun} section alone makes this worth the replay.","Feels {adj}, sounds {adj} — a solid addition to any playlist.","{Adj} energy throughout, though the {noun} runs a little long.","A {adj} {noun} that grows on you after a few spins."]
+}
