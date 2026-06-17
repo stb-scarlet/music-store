@@ -53,7 +53,9 @@ export function generateReviews(locale, recordSeedBig) {
   return reviews;
 }
 
-export function generateLabelAndYear(rng) {
+export function generateLabelAndYear(recordSeedBig) {
+  const rng = makeStream(recordSeedBig, 'label-year');
+
   const labels = [
     'Aurora Records',
     'Neon Wave Studios',
@@ -63,8 +65,7 @@ export function generateLabelAndYear(rng) {
   ];
 
   const label = labels[Math.floor(rng() * labels.length)];
-
-  const year = 1975 + Math.floor(rng() * 45); // 1975–2020-ish
+  const year = 1975 + Math.floor(rng() * 45);
 
   return { label, year };
 }

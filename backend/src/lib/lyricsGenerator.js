@@ -1,6 +1,5 @@
 import { makeStream, pick } from '../rng/seed.js';
 import { fillTemplate } from './template.js';
-const BEATS_PER_CHORD = 4
 const LINES_PER_SECTION = 2;
 
 /** Generate lyric lines with playback timestamps (seconds), aligned to verse/chorus sections. */
@@ -16,11 +15,11 @@ export function generateLyrics(locale, recordSeedBig, composition) {
 
   for (const sectionName of sections) {
     for (let i = 0; i < LINES_PER_SECTION; i++) {
-      const startBeat = beatPos + i * (beatsPerSection / LINES_PER_SECTION);
+      const startBeat = beatPos + (i * beatsPerSection) / LINES_PER_SECTION;
       const text = fillTemplate(pick(rng, locale.lyricTemplates), locale, rng, locale._faker);
       lines.push({ time: Number(beatToSec(startBeat).toFixed(2)), text, section: sectionName });
     }
-    beatPos += BEATS_PER_CHORD;
+    beatPos += beatsPerSection;
   }
   return lines;
 }

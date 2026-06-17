@@ -69,13 +69,20 @@ router.get('/songs', (req, res) => {
 router.get('/song-detail/:token', (req, res) => {
   try {
     const { region, recordSeedBig } = decodeToken(req.params.token);
+    console.log("1");
     const locale = getLocale(region);
+    console.log("2");
     const content = generateSongContent(locale, recordSeedBig);
     const avgLikes = clampFloat(req.query.likes, 0, 10, 0);
+    console.log("3");
     const likes = generateLikes(recordSeedBig, avgLikes);
+    console.log("4");
     const reviews = generateReviews(locale, recordSeedBig);
-    const { label, year } = generateLabelAndYear(locale, recordSeedBig);
+    console.log("5");
+    const { label, year } = generateLabelAndYear(recordSeedBig);
+    console.log("6");
     const composition = composeForRecord(recordSeedBig);
+    console.log("7");
     const lyrics = generateLyrics(locale, recordSeedBig, composition);
 
     res.json({
